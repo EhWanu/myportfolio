@@ -3,8 +3,8 @@ import './Portfolio.scss'
 
 export default function Portfolio() {
     return (
-        <div className='navbar'>
-            
+        <div className='portfolio'>
+        
         </div>
     )
 }
