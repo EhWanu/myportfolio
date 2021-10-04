@@ -6,11 +6,15 @@ import Services from './components/Services/Services'
 import Sidebar from './components/Sidebar/Sidebar'
 import Testimonials from './components/Testimonials/Testimonials'
 import './App.scss'
+import { useState } from 'react'
 
 function App() {
+
+  const [menuOpen, setMenuOpen] = useState(false)
+
   return (
     <div className="app">
-      <Navbar />
+      <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Sidebar />
       <div className="sections">
         <Hero />
