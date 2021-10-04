@@ -1,7 +1,9 @@
+@import "../../Global.scss";
+
 .navbar {
     width: 100%;
+    background-color: $mainColor;
     height: 70px;
-    background-color: #15023a;
     z-index: 2;
     position: fixed;
     top: 0;
