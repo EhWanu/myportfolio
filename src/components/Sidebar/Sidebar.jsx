@@ -1,9 +1,9 @@
 import './Sidebar.scss'
 
 
-export default function Sidebar() {
+export default function Sidebar({menuOpen, setMenuOpen}) {
     return (
-        <div className='sidebar' id='sidebar'>
+        <div className={'sidebar ' + (menuOpen && 'active')}>
             <ul>
                 <li>
                     <a href="#hero">Home</a>
@@ -12,7 +12,7 @@ export default function Sidebar() {
                     <a href="#portfolio">Portfolio</a>
                 </li>
                 <li>
-                    <a href="#servicex">Services</a>
+                    <a href="#services">Services</a>
                 </li>
                 <li>
                     <a href="#testimonials">Testimonials</a>
