@@ -6,9 +6,9 @@ export default function Navbar() {
         <div className='navbar'>
             <div className="wrapper">
                 <div className="left">
-                    <a href="#intro">asdsfsa</a>
+                    <a href="#hero" className="logo">Welcome.</a>
                 </div>
-                <div className="right"></div>
+                <div className="right">right side</div>
             </div>   
         </div>
     )
