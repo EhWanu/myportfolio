@@ -1,3 +1,5 @@
+@import '../../Global.scss';
+
 .hero {
 	background-color: white;
 	display: flex;
@@ -34,6 +36,7 @@
 			h1 {
 				font-size: 60px;
 				margin: 10px 0px;
+
 			}
 
 			span {
