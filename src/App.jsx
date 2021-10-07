@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="app">
       <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-      <Sidebar />
+      <Sidebar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <div className="sections">
         <Hero />
         <Portfolio />
