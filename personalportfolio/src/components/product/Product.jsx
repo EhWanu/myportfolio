@@ -1,7 +1,7 @@
-import React from "react";
+import "./product.css";
 
 const Product = () => {
-	return <div className="product">Card</div>;
+	return <div className="p">Card</div>;
 };
 
 export default Product;
