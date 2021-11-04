@@ -23,7 +23,8 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	width: 100%;
+	width: 75%;
+	perspective: 900px;
 }
 
 @media screen and (max-width: 480px) {

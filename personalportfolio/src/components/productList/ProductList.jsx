@@ -21,6 +21,7 @@ const ProductList = () => {
 						key={item.id}
 						img={item.img}
 						link={item.link}
+						title={item.title}
 					/>
 				))}
 			</div>
